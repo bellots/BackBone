@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.5.0)
+  - UsefulExtensions (0.1.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - UsefulExtensions
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  UsefulExtensions: 4cff78d199bc0122c4a66eb485cf1243522d1ba1
+
+PODFILE CHECKSUM: fec8bc29501d463600fee113d4259c93cb3d6d49
+
+COCOAPODS: 1.1.1
