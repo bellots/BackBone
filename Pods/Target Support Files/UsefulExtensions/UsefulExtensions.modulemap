@@ -1,6 +1,0 @@
-framework module UsefulExtensions {
-  umbrella header "UsefulExtensions-umbrella.h"
-
-  export *
-  module * { export * }
-}
