@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonWithImageView" customModule="JoeBee" customModuleProvider="target">
+            <connections>
+                <outlet property="mainButton" destination="Eac-C3-jSe" id="lEO-Ml-3gb"/>
+                <outlet property="mainLabel" destination="jgh-Xj-Dgm" id="Xp8-3M-FcW"/>
+                <outlet property="placeholderImageView" destination="tg5-8X-HBE" id="O3X-OM-0nt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eac-C3-jSe" customClass="DefaultButton" customModule="JoeBee" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="aJd-UQ-RxP"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tg5-8X-HBE" customClass="TintedImageView" customModule="JoeBee" customModuleProvider="target">
+                    <rect key="frame" x="5" y="2" width="30" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="O7q-X4-8Hu"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelaasjdkalsd a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgh-Xj-Dgm" customClass="RegularTitleLabel" customModule="JoeBee" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Eac-C3-jSe" secondAttribute="bottom" id="4Uv-MB-wBW"/>
+                <constraint firstItem="Eac-C3-jSe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BPZ-pa-Gr0"/>
+                <constraint firstAttribute="bottom" secondItem="tg5-8X-HBE" secondAttribute="bottom" constant="2" id="OQ5-hu-SSI"/>
+                <constraint firstItem="tg5-8X-HBE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="Ovp-YV-AcA"/>
+                <constraint firstAttribute="trailing" secondItem="Eac-C3-jSe" secondAttribute="trailing" id="Xjf-Jt-AhM"/>
+                <constraint firstItem="Eac-C3-jSe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dEt-5x-uEC"/>
+                <constraint firstItem="Eac-C3-jSe" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="ehg-0I-YiW"/>
+                <constraint firstItem="tg5-8X-HBE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="gm4-Jx-Tw2"/>
+                <constraint firstAttribute="bottom" secondItem="jgh-Xj-Dgm" secondAttribute="bottom" id="hWN-HG-NrO"/>
+                <constraint firstItem="jgh-Xj-Dgm" firstAttribute="leading" secondItem="Eac-C3-jSe" secondAttribute="leading" id="hv4-78-Nmf"/>
+                <constraint firstItem="jgh-Xj-Dgm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kwS-cR-DZa"/>
+                <constraint firstItem="Eac-C3-jSe" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="nkA-TL-RXl"/>
+                <constraint firstAttribute="trailing" secondItem="jgh-Xj-Dgm" secondAttribute="trailing" id="wNt-SI-LM4"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34.5" y="-250"/>
+        </view>
+    </objects>
+</document>

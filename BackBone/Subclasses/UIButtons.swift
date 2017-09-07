@@ -117,8 +117,7 @@ import UIKit
 
 //MARK: - Buttons with Image subclasses
 
-@IBDesignable class DefaultButtonWithImage:ButtonWithImageView, Sortable {
-    var sortIndex: Int = 0
+@IBDesignable class DefaultButtonWithImage:ButtonWithImageView {
     
     override func setup() {
         let bundle = Bundle(for:type(of: self))
@@ -133,7 +132,7 @@ import UIKit
 @IBDesignable class PlaceholderButtonWithImage:DefaultButtonWithImage{
     
     var privateLineWidth:CGFloat = 2.0
-    var privateStrokeColor:UIColor = Colors.Button.Border.default
+    var privateStrokeColor:UIColor = .black
     
     @IBInspectable public var lineWidth: CGFloat {
         get {

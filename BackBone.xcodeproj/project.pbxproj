@@ -55,6 +55,8 @@
 		6ABF134D1F6155AD00D8B1F1 /* UITextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF13431F6155AD00D8B1F1 /* UITextFields.swift */; };
 		6ABF134E1F6155AD00D8B1F1 /* UITextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF13441F6155AD00D8B1F1 /* UITextViews.swift */; };
 		6ABF134F1F6155AD00D8B1F1 /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF13451F6155AD00D8B1F1 /* UIViews.swift */; };
+		6ABF13531F6157E400D8B1F1 /* ButtonWithImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF13511F6157E400D8B1F1 /* ButtonWithImageView.swift */; };
+		6ABF13541F6157E400D8B1F1 /* ButtonWithImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF13521F6157E400D8B1F1 /* ButtonWithImageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +111,8 @@
 		6ABF13431F6155AD00D8B1F1 /* UITextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFields.swift; sourceTree = "<group>"; };
 		6ABF13441F6155AD00D8B1F1 /* UITextViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViews.swift; sourceTree = "<group>"; };
 		6ABF13451F6155AD00D8B1F1 /* UIViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
+		6ABF13511F6157E400D8B1F1 /* ButtonWithImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithImageView.swift; sourceTree = "<group>"; };
+		6ABF13521F6157E400D8B1F1 /* ButtonWithImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonWithImageView.xib; sourceTree = "<group>"; };
 		8F30E117350A14BE4B07ACD7 /* Pods-BackBone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackBone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BackBone/Pods-BackBone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +149,7 @@
 		6A112DDC1F60279C00E95EB2 /* BackBone */ = {
 			isa = PBXGroup;
 			children = (
+				6ABF13501F6157E400D8B1F1 /* Custom Views */,
 				6A112DEF1F60282900E95EB2 /* API */,
 				6A112DDD1F60279C00E95EB2 /* AppDelegate.swift */,
 				6A112DE41F60279C00E95EB2 /* Assets.xcassets */,
@@ -285,6 +290,15 @@
 			path = Subclasses;
 			sourceTree = "<group>";
 		};
+		6ABF13501F6157E400D8B1F1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF13511F6157E400D8B1F1 /* ButtonWithImageView.swift */,
+				6ABF13521F6157E400D8B1F1 /* ButtonWithImageView.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 		E90F5AC1E74D9C5056197019 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +381,7 @@
 			files = (
 				6A112DFE1F60282900E95EB2 /* Main.storyboard in Resources */,
 				6A112DE51F60279C00E95EB2 /* Assets.xcassets in Resources */,
+				6ABF13541F6157E400D8B1F1 /* ButtonWithImageView.xib in Resources */,
 				6A112DFD1F60282900E95EB2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +476,7 @@
 				6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */,
 				6A112E191F60613F00E95EB2 /* ThemeSegmentedControl.swift in Sources */,
 				6A112E141F60613F00E95EB2 /* ThemeButton.swift in Sources */,
+				6ABF13531F6157E400D8B1F1 /* ButtonWithImageView.swift in Sources */,
 				6ABF132E1F61559600D8B1F1 /* UIAlertControllerExtensions.swift in Sources */,
 				6ABF13311F61559600D8B1F1 /* UICollectionViewExtensions.swift in Sources */,
 				6A112E1B1F60613F00E95EB2 /* ThemeTextField.swift in Sources */,
