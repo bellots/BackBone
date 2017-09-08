@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 extension UIAlertController{
     public class func show(withTitle title:String, message:String, cancelTitle:String, actionCancel:(()->Void)?, inViewController viewController:UIViewController){

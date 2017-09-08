@@ -1,13 +1,12 @@
 //
 //  UIStackViewExtensions.swift
-//  BackBone
+//  UsefulExtensions
 //
 //  Created by Andrea Bellotto on 29/01/17.
 //  Copyright © 2017 Andrea Bellotto. All rights reserved.
 //
 
 import Foundation
-import UIKit
 
 extension UIStackView {
     public func add(_ view:UIView, width:CGFloat){

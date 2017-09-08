@@ -1,13 +1,12 @@
 //
 //  UITextViewExtensions.swift
-//  BackBone
+//  UsefulExtensions
 //
 //  Created by Andrea Bellotto on 06/09/17.
 //  Copyright © 2017 Andrea Bellotto. All rights reserved.
 //
 
 import Foundation
-import UIKit
 
 extension UITextView{
     
