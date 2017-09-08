@@ -25,6 +25,8 @@
 		6A112E1C1F60613F00E95EB2 /* ThemeUIPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A112E111F60613F00E95EB2 /* ThemeUIPageView.swift */; };
 		6A112E1D1F60613F00E95EB2 /* ThemeUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A112E121F60613F00E95EB2 /* ThemeUITextView.swift */; };
 		6A112E1E1F60613F00E95EB2 /* ThemeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A112E131F60613F00E95EB2 /* ThemeUIView.swift */; };
+		6A489C491F63025B00C586B4 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A489C471F63025B00C586B4 /* Route.swift */; };
+		6A489C4A1F63025B00C586B4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A489C481F63025B00C586B4 /* Router.swift */; };
 		6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */; };
 		6ABF13471F6155AD00D8B1F1 /* UIButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */; };
 		6ABF13481F6155AD00D8B1F1 /* UICollectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */; };
@@ -61,6 +63,8 @@
 		6A112E111F60613F00E95EB2 /* ThemeUIPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeUIPageView.swift; sourceTree = "<group>"; };
 		6A112E121F60613F00E95EB2 /* ThemeUITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeUITextView.swift; sourceTree = "<group>"; };
 		6A112E131F60613F00E95EB2 /* ThemeUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeUIView.swift; sourceTree = "<group>"; };
+		6A489C471F63025B00C586B4 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		6A489C481F63025B00C586B4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearNavigationViewController.swift; sourceTree = "<group>"; };
 		6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtons.swift; sourceTree = "<group>"; };
 		6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViews.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 		6A112DEF1F60282900E95EB2 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				6A489C471F63025B00C586B4 /* Route.swift */,
+				6A489C481F63025B00C586B4 /* Router.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 				6A112E1C1F60613F00E95EB2 /* ThemeUIPageView.swift in Sources */,
 				6ABF134B1F6155AD00D8B1F1 /* UISegmentedControls.swift in Sources */,
 				6A112E171F60613F00E95EB2 /* ThemeImageView.swift in Sources */,
+				6A489C4A1F63025B00C586B4 /* Router.swift in Sources */,
 				6ABF134F1F6155AD00D8B1F1 /* UIViews.swift in Sources */,
 				6A112DE01F60279C00E95EB2 /* ViewController.swift in Sources */,
 				6A112E081F6060F700E95EB2 /* Theme.swift in Sources */,
@@ -390,6 +397,7 @@
 				6ABF134C1F6155AD00D8B1F1 /* UITableViews.swift in Sources */,
 				6ABF134A1F6155AD00D8B1F1 /* UILabels.swift in Sources */,
 				6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */,
+				6A489C491F63025B00C586B4 /* Route.swift in Sources */,
 				6A112E191F60613F00E95EB2 /* ThemeSegmentedControl.swift in Sources */,
 				6A112E141F60613F00E95EB2 /* ThemeButton.swift in Sources */,
 				6ABF13531F6157E400D8B1F1 /* ButtonWithImageView.swift in Sources */,
