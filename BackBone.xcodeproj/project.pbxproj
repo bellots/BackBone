@@ -283,7 +283,6 @@
 				TargetAttributes = {
 					6A112DD91F60279C00E95EB2 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 7HYFV63G2Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -502,10 +501,9 @@
 			baseConfigurationReference = 8F30E117350A14BE4B07ACD7 /* Pods-BackBone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7HYFV63G2Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BackBone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bellots.BackBone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -516,10 +514,9 @@
 			baseConfigurationReference = 6585BF918993564936216651 /* Pods-BackBone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7HYFV63G2Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BackBone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bellots.BackBone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
