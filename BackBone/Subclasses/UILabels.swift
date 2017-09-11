@@ -11,7 +11,7 @@ import UIKit
 
 extension UILabel{
     override open func prepareForInterfaceBuilder() {
-        ThemeUIView.setStyle(for: .standard)
+        ThemeLabel.setStyle(for: .standard)
     }
 }
 

@@ -9,6 +9,14 @@
 import Foundation
 import UIKit
 
+
+extension UIButton{
+    override open func prepareForInterfaceBuilder() {
+        ThemeButton.setStyle(for: .standard)
+    }
+}
+
+
 @IBDesignable class DefaultButton:UIButton{
     
     var heightConstraint:NSLayoutConstraint?
