@@ -7,11 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 struct ThemeLabel{
     static func setStyle(for theme:Theme){
         switch theme {
         case .standard:
+            DefaultLabel.appearance().textColor = UIColor.red
             return
         case .dark:
             return

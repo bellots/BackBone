@@ -7,12 +7,13 @@
 //
 
 import Foundation
-
+import UIKit
 
 struct ThemeButton{
     static func setStyle(for theme:Theme){
         switch theme {
-        case .standard:            
+        case .standard:
+            CircleButton.appearance().backgroundColor = UIColor.purple
             return
         case .dark:
             return
