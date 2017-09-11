@@ -6,6 +6,7 @@ use_frameworks!
 	pod 'AlamofireImage'
 	pod 'UsefulExtensions'
 	pod 'Apollo'
+	pod 'MBProgressHUD'
 
 target 'BackBone' do
   
