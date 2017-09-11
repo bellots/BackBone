@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Apollo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BackBone.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>393BCA4B03758EE05FD4899A4777FCC7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4ABB41F04C74C75176A092ED5885C734</key>
+		<key>41704A899769178C44F143DD9B121A95</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F5494A4708162F0D86989E0CC4797746</key>
+		<key>CC56A62773270DB4382CE0EB1E916657</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2CD7DC326FC1F9497C2AB60E2F53AA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF994DC9B9C8A0C3D49B59E08976EF50</key>
 		<dict>
 			<key>primary</key>
 			<true/>

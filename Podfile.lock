@@ -2,6 +2,9 @@ PODS:
   - Alamofire (4.5.0)
   - AlamofireImage (3.2.0):
     - Alamofire (~> 4.1)
+  - Apollo (0.6.5):
+    - Apollo/Core (= 0.6.5)
+  - Apollo/Core (0.6.5)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -9,15 +12,17 @@ PODS:
 
 DEPENDENCIES:
   - AlamofireImage
+  - Apollo
   - SDWebImage (~> 3.8)
   - UsefulExtensions
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Apollo: 575496b1fbdb27a47c0e62a48340da2bd1dc67d7
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UsefulExtensions: 4cff78d199bc0122c4a66eb485cf1243522d1ba1
 
-PODFILE CHECKSUM: b4729e4167ef0954846d4d0a8b24741953990664
+PODFILE CHECKSUM: 7f6c2ead5c5c4cf223d6a9f675b12dd396de675d
 
 COCOAPODS: 1.1.1

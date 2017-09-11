@@ -1,0 +1,18 @@
+query EventForId($eventId: ID!) {
+event(id: $eventId) {
+name
+id
+planning {
+day
+displayDay
+agenda {
+startAt
+displayStartAt
+sessions {
+title
+id
+}
+}
+}
+}
+}
