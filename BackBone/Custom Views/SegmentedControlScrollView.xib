@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentedControlScrollView" customModule="JoeBee" customModuleProvider="target">
+            <connections>
+                <outlet property="scrollView" destination="88N-xz-Knn" id="8kx-CX-7Up"/>
+                <outlet property="segmentedControlView" destination="8LT-nC-YQx" id="QWc-Ma-28T"/>
+                <outlet property="segmentedHeightConstraint" destination="L4d-HP-OIe" id="ihq-9L-DQY"/>
+                <outlet property="stackView" destination="l2y-v4-QBl" id="hTe-Fi-Ltj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="409"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HWi-RK-tqO">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="409"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8LT-nC-YQx" customClass="UnderlinedSegmentedControlView" customModule="JoeBee" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="L4d-HP-OIe"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="numElements">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="88N-xz-Knn">
+                            <rect key="frame" x="0.0" y="40" width="375" height="369"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l2y-v4-QBl">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="362"/>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="l2y-v4-QBl" secondAttribute="trailing" id="1ev-Wk-nFg"/>
+                                <constraint firstItem="l2y-v4-QBl" firstAttribute="top" secondItem="88N-xz-Knn" secondAttribute="top" id="EzD-2v-NAb"/>
+                                <constraint firstAttribute="bottom" secondItem="l2y-v4-QBl" secondAttribute="bottom" id="Qse-4h-QZg"/>
+                                <constraint firstItem="l2y-v4-QBl" firstAttribute="leading" secondItem="88N-xz-Knn" secondAttribute="leading" id="T8a-Es-zx4"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HWi-RK-tqO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ilt-y1-iMz"/>
+                <constraint firstItem="HWi-RK-tqO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="o7I-Kh-864"/>
+                <constraint firstAttribute="trailing" secondItem="HWi-RK-tqO" secondAttribute="trailing" id="s9H-rz-EVd"/>
+                <constraint firstAttribute="bottom" secondItem="HWi-RK-tqO" secondAttribute="bottom" id="soT-Y9-FOH"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34.5" y="-74.5"/>
+        </view>
+    </objects>
+</document>

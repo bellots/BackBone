@@ -166,3 +166,47 @@ extension UIButton{
         addDashedBorder(strokeColor: privateStrokeColor, lineWidth: privateLineWidth)
     }
 }
+
+
+@IBDesignable class SelectableButton:DefaultButton{
+    
+    let borderLayer = CAShapeLayer()
+    
+    dynamic public var strokeColor: UIColor? {
+        get {
+            guard let strokeColor = borderLayer.strokeColor else{
+                return UIColor.black
+            }
+            return UIColor(cgColor: strokeColor)
+        }
+        set {
+            borderLayer.strokeColor = newValue?.cgColor
+        }
+    }
+    
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        borderLayer.lineWidth = 1
+        borderLayer.fillColor = UIColor.clear.cgColor
+        titleLabel?.layer.addSublayer(borderLayer)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        let optionalLabel = self.titleLabel
+        
+        guard let label = optionalLabel else{
+            return
+        }
+        
+        let frame = CGRect(x: -10, y: -5, width: label.frame.size.width + 20, height: label.frame.size.height + 10)
+        
+        let path = UIBezierPath(roundedRect: frame, cornerRadius: frame.size.height / 2)
+        
+        borderLayer.path = path.cgPath
+        
+    }
+    
+}
+

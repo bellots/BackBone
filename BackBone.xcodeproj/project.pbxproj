@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B0972E93A3A0E12A9BAA0C6 /* Pods_BackBone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B15304E97A4078C974206D /* Pods_BackBone.framework */; };
-		6A06F9941F669DB900AEC744 /* AuthHTTPNetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06F9931F669DB900AEC744 /* AuthHTTPNetworkTransport.swift */; };
-		6A06F9971F669FFD00AEC744 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A06F9961F669FFD00AEC744 /* schema.json */; };
-		6A06F9991F66A03700AEC744 /* event.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 6A06F9981F66A03700AEC744 /* event.graphql */; };
-		6A06F99B1F66A19A00AEC744 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06F99A1F66A19A00AEC744 /* API.swift */; };
 		6A112DDE1F60279C00E95EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A112DDD1F60279C00E95EB2 /* AppDelegate.swift */; };
 		6A112DE51F60279C00E95EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A112DE41F60279C00E95EB2 /* Assets.xcassets */; };
 		6A112DFC1F60282900E95EB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A112DF11F60282900E95EB2 /* Constants.swift */; };
@@ -32,7 +28,16 @@
 		6A5A98681F863366009445FA /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98651F863366009445FA /* LocalNotificationManager.swift */; };
 		6A5A98691F863366009445FA /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98661F863366009445FA /* StoryboardManager.swift */; };
 		6A5A986B1F86336E009445FA /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A986A1F86336E009445FA /* BaseModel.swift */; };
-		6A5A986D1F86342F009445FA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A986C1F86342F009445FA /* Router.swift */; };
+		6A5A986F1F8635A3009445FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A986E1F8635A3009445FA /* MainViewController.swift */; };
+		6A5A98711F86368A009445FA /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98701F86368A009445FA /* NotificationManager.swift */; };
+		6A5A98781F86372D009445FA /* SegmentedControlScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98721F86372D009445FA /* SegmentedControlScrollView.swift */; };
+		6A5A98791F86372D009445FA /* UnderlinedSegmentedControlElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98731F86372D009445FA /* UnderlinedSegmentedControlElementView.swift */; };
+		6A5A987A1F86372D009445FA /* UnderlinedSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98771F86372D009445FA /* UnderlinedSegmentedControlView.swift */; };
+		6A5A98801F863AB2009445FA /* DeepLynkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A987E1F863AB2009445FA /* DeepLynkType.swift */; };
+		6A5A98811F863AB2009445FA /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A987F1F863AB2009445FA /* DeepLinkManager.swift */; };
+		6A5A98831F863AE9009445FA /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98821F863AE9009445FA /* LinkModel.swift */; };
+		6A75DAF61F863C8D0019C00A /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */; };
+		6A75DAF91F863DAB0019C00A /* EmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAF81F863DAB0019C00A /* EmptyFile.swift */; };
 		6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */; };
 		6ABF13471F6155AD00D8B1F1 /* UIButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */; };
 		6ABF13481F6155AD00D8B1F1 /* UICollectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */; };
@@ -50,10 +55,6 @@
 /* Begin PBXFileReference section */
 		19B15304E97A4078C974206D /* Pods_BackBone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackBone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6585BF918993564936216651 /* Pods-BackBone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackBone.release.xcconfig"; path = "Pods/Target Support Files/Pods-BackBone/Pods-BackBone.release.xcconfig"; sourceTree = "<group>"; };
-		6A06F9931F669DB900AEC744 /* AuthHTTPNetworkTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthHTTPNetworkTransport.swift; sourceTree = "<group>"; };
-		6A06F9961F669FFD00AEC744 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
-		6A06F9981F66A03700AEC744 /* event.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event.graphql; sourceTree = "<group>"; };
-		6A06F99A1F66A19A00AEC744 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		6A112DDA1F60279C00E95EB2 /* BackBone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackBone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A112DDD1F60279C00E95EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A112DE41F60279C00E95EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +77,19 @@
 		6A5A98651F863366009445FA /* LocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 		6A5A98661F863366009445FA /* StoryboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
 		6A5A986A1F86336E009445FA /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
-		6A5A986C1F86342F009445FA /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6A5A986E1F8635A3009445FA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6A5A98701F86368A009445FA /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		6A5A98721F86372D009445FA /* SegmentedControlScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlScrollView.swift; sourceTree = "<group>"; };
+		6A5A98731F86372D009445FA /* UnderlinedSegmentedControlElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedSegmentedControlElementView.swift; sourceTree = "<group>"; };
+		6A5A98741F86372D009445FA /* UnderlinedSegmentedControlElementView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnderlinedSegmentedControlElementView.xib; sourceTree = "<group>"; };
+		6A5A98751F86372D009445FA /* UnderlinedSegmentedControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnderlinedSegmentedControlView.xib; sourceTree = "<group>"; };
+		6A5A98761F86372D009445FA /* SegmentedControlScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentedControlScrollView.xib; sourceTree = "<group>"; };
+		6A5A98771F86372D009445FA /* UnderlinedSegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedSegmentedControlView.swift; sourceTree = "<group>"; };
+		6A5A987E1F863AB2009445FA /* DeepLynkType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLynkType.swift; sourceTree = "<group>"; };
+		6A5A987F1F863AB2009445FA /* DeepLinkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		6A5A98821F863AE9009445FA /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		6A75DAF81F863DAB0019C00A /* EmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyFile.swift; sourceTree = "<group>"; };
 		6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearNavigationViewController.swift; sourceTree = "<group>"; };
 		6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtons.swift; sourceTree = "<group>"; };
 		6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViews.swift; sourceTree = "<group>"; };
@@ -125,8 +138,10 @@
 		6A112DDC1F60279C00E95EB2 /* BackBone */ = {
 			isa = PBXGroup;
 			children = (
+				6A75DAF71F863DA20019C00A /* API */,
+				6A75DAF41F863C830019C00A /* Extensions */,
+				6A5A987B1F863829009445FA /* DeepLink */,
 				6ABF13501F6157E400D8B1F1 /* Custom Views */,
-				6A112DEF1F60282900E95EB2 /* API */,
 				6A112DDD1F60279C00E95EB2 /* AppDelegate.swift */,
 				6A112DE41F60279C00E95EB2 /* Assets.xcassets */,
 				6A112DE91F60279C00E95EB2 /* Info.plist */,
@@ -143,18 +158,6 @@
 			path = BackBone;
 			sourceTree = "<group>";
 		};
-		6A112DEF1F60282900E95EB2 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6A5A986C1F86342F009445FA /* Router.swift */,
-				6A06F99A1F66A19A00AEC744 /* API.swift */,
-				6A06F9981F66A03700AEC744 /* event.graphql */,
-				6A06F9961F669FFD00AEC744 /* schema.json */,
-				6A06F9931F669DB900AEC744 /* AuthHTTPNetworkTransport.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
 		6A112DF01F60282900E95EB2 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +165,7 @@
 				6A5A98651F863366009445FA /* LocalNotificationManager.swift */,
 				6A5A98661F863366009445FA /* StoryboardManager.swift */,
 				6A112DF11F60282900E95EB2 /* Constants.swift */,
+				6A5A98701F86368A009445FA /* NotificationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -170,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				6A5A986A1F86336E009445FA /* BaseModel.swift */,
+				6A5A98821F863AE9009445FA /* LinkModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,8 +230,34 @@
 		6A112DFB1F60282900E95EB2 /* UIViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6A5A986E1F8635A3009445FA /* MainViewController.swift */,
 			);
 			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		6A5A987B1F863829009445FA /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				6A5A987F1F863AB2009445FA /* DeepLinkManager.swift */,
+				6A5A987E1F863AB2009445FA /* DeepLynkType.swift */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
+		6A75DAF41F863C830019C00A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A75DAF71F863DA20019C00A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6A75DAF81F863DAB0019C00A /* EmptyFile.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		6ABF133B1F6155AD00D8B1F1 /* Subclasses */ = {
@@ -249,6 +280,12 @@
 		6ABF13501F6157E400D8B1F1 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				6A5A98721F86372D009445FA /* SegmentedControlScrollView.swift */,
+				6A5A98761F86372D009445FA /* SegmentedControlScrollView.xib */,
+				6A5A98731F86372D009445FA /* UnderlinedSegmentedControlElementView.swift */,
+				6A5A98741F86372D009445FA /* UnderlinedSegmentedControlElementView.xib */,
+				6A5A98771F86372D009445FA /* UnderlinedSegmentedControlView.swift */,
+				6A5A98751F86372D009445FA /* UnderlinedSegmentedControlView.xib */,
 				6ABF13511F6157E400D8B1F1 /* ButtonWithImageView.swift */,
 				6ABF13521F6157E400D8B1F1 /* ButtonWithImageView.xib */,
 			);
@@ -280,7 +317,6 @@
 			buildConfigurationList = 6A112DEC1F60279C00E95EB2 /* Build configuration list for PBXNativeTarget "BackBone" */;
 			buildPhases = (
 				60206F62E46B3D575A014BC2 /* [CP] Check Pods Manifest.lock */,
-				6A06F9951F669E7B00AEC744 /* Generate Apollo GraphQL API */,
 				6A112DD61F60279C00E95EB2 /* Sources */,
 				6A112DD71F60279C00E95EB2 /* Frameworks */,
 				6A112DD81F60279C00E95EB2 /* Resources */,
@@ -337,10 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A112DFE1F60282900E95EB2 /* Main.storyboard in Resources */,
-				6A06F9971F669FFD00AEC744 /* schema.json in Resources */,
 				6A112DE51F60279C00E95EB2 /* Assets.xcassets in Resources */,
 				6ABF13541F6157E400D8B1F1 /* ButtonWithImageView.xib in Resources */,
-				6A06F9991F66A03700AEC744 /* event.graphql in Resources */,
 				6A112DFD1F60282900E95EB2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,20 +412,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6A06F9951F669E7B00AEC744 /* Generate Apollo GraphQL API */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate Apollo GraphQL API";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}/API\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-codegen.sh generate $(find . -name '*.graphql') --schema schema.json --output API.swift";
-		};
 		D106E75ED69E95AFF56AB129 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,31 +438,38 @@
 				6A112E1C1F60613F00E95EB2 /* ThemeUIPageView.swift in Sources */,
 				6A5A986B1F86336E009445FA /* BaseModel.swift in Sources */,
 				6ABF134B1F6155AD00D8B1F1 /* UISegmentedControls.swift in Sources */,
+				6A75DAF61F863C8D0019C00A /* UIViewExtensions.swift in Sources */,
 				6A112E171F60613F00E95EB2 /* ThemeImageView.swift in Sources */,
-				6A5A986D1F86342F009445FA /* Router.swift in Sources */,
 				6ABF134F1F6155AD00D8B1F1 /* UIViews.swift in Sources */,
 				6A112E081F6060F700E95EB2 /* Theme.swift in Sources */,
-				6A06F99B1F66A19A00AEC744 /* API.swift in Sources */,
 				6A112E1E1F60613F00E95EB2 /* ThemeUIView.swift in Sources */,
 				6A112E161F60613F00E95EB2 /* ThemeFramedTextField.swift in Sources */,
+				6A5A98831F863AE9009445FA /* LinkModel.swift in Sources */,
 				6A5A98691F863366009445FA /* StoryboardManager.swift in Sources */,
 				6A112DDE1F60279C00E95EB2 /* AppDelegate.swift in Sources */,
-				6A06F9941F669DB900AEC744 /* AuthHTTPNetworkTransport.swift in Sources */,
 				6A112DFC1F60282900E95EB2 /* Constants.swift in Sources */,
+				6A5A98711F86368A009445FA /* NotificationManager.swift in Sources */,
 				6ABF13471F6155AD00D8B1F1 /* UIButtons.swift in Sources */,
+				6A5A986F1F8635A3009445FA /* MainViewController.swift in Sources */,
 				6A112E1A1F60613F00E95EB2 /* ThemeSegmentedControlScrollView.swift in Sources */,
 				6A112E181F60613F00E95EB2 /* ThemeLabel.swift in Sources */,
 				6ABF134C1F6155AD00D8B1F1 /* UITableViews.swift in Sources */,
+				6A5A98791F86372D009445FA /* UnderlinedSegmentedControlElementView.swift in Sources */,
+				6A5A98781F86372D009445FA /* SegmentedControlScrollView.swift in Sources */,
 				6A5A98671F863366009445FA /* ErrorManager.swift in Sources */,
+				6A5A98801F863AB2009445FA /* DeepLynkType.swift in Sources */,
 				6ABF134A1F6155AD00D8B1F1 /* UILabels.swift in Sources */,
 				6A5A98681F863366009445FA /* LocalNotificationManager.swift in Sources */,
 				6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */,
+				6A5A98811F863AB2009445FA /* DeepLinkManager.swift in Sources */,
 				6A112E191F60613F00E95EB2 /* ThemeSegmentedControl.swift in Sources */,
 				6A112E141F60613F00E95EB2 /* ThemeButton.swift in Sources */,
 				6ABF13531F6157E400D8B1F1 /* ButtonWithImageView.swift in Sources */,
 				6A112E1B1F60613F00E95EB2 /* ThemeTextField.swift in Sources */,
+				6A5A987A1F86372D009445FA /* UnderlinedSegmentedControlView.swift in Sources */,
 				6ABF134D1F6155AD00D8B1F1 /* UITextFields.swift in Sources */,
 				6ABF134E1F6155AD00D8B1F1 /* UITextViews.swift in Sources */,
+				6A75DAF91F863DAB0019C00A /* EmptyFile.swift in Sources */,
 				6ABF13491F6155AD00D8B1F1 /* UIImageViews.swift in Sources */,
 				6A112E1D1F60613F00E95EB2 /* ThemeUITextView.swift in Sources */,
 			);

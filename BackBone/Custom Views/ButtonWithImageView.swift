@@ -1,6 +1,6 @@
 //
 //  ButtonWithImageView.swift
-//  JoeBee
+//  BackBone
 //
 //  Created by Andrea Bellotto on 07/02/17.
 //  Copyright © 2017 JoeBee Srl. All rights reserved.
