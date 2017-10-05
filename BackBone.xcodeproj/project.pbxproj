@@ -28,6 +28,16 @@
 		6A5A98681F863366009445FA /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98651F863366009445FA /* LocalNotificationManager.swift */; };
 		6A5A98691F863366009445FA /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98661F863366009445FA /* StoryboardManager.swift */; };
 		6A5A986B1F86336E009445FA /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A986A1F86336E009445FA /* BaseModel.swift */; };
+		6A5A986F1F8635A3009445FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A986E1F8635A3009445FA /* MainViewController.swift */; };
+		6A5A98711F86368A009445FA /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98701F86368A009445FA /* NotificationManager.swift */; };
+		6A5A98781F86372D009445FA /* SegmentedControlScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98721F86372D009445FA /* SegmentedControlScrollView.swift */; };
+		6A5A98791F86372D009445FA /* UnderlinedSegmentedControlElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98731F86372D009445FA /* UnderlinedSegmentedControlElementView.swift */; };
+		6A5A987A1F86372D009445FA /* UnderlinedSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98771F86372D009445FA /* UnderlinedSegmentedControlView.swift */; };
+		6A5A98801F863AB2009445FA /* DeepLynkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A987E1F863AB2009445FA /* DeepLynkType.swift */; };
+		6A5A98811F863AB2009445FA /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A987F1F863AB2009445FA /* DeepLinkManager.swift */; };
+		6A5A98831F863AE9009445FA /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98821F863AE9009445FA /* LinkModel.swift */; };
+		6A75DAF61F863C8D0019C00A /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */; };
+		6A75DAF91F863DAB0019C00A /* EmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAF81F863DAB0019C00A /* EmptyFile.swift */; };
 		6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */; };
 		6ABF13471F6155AD00D8B1F1 /* UIButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */; };
 		6ABF13481F6155AD00D8B1F1 /* UICollectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */; };
@@ -67,6 +77,19 @@
 		6A5A98651F863366009445FA /* LocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 		6A5A98661F863366009445FA /* StoryboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
 		6A5A986A1F86336E009445FA /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		6A5A986E1F8635A3009445FA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6A5A98701F86368A009445FA /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		6A5A98721F86372D009445FA /* SegmentedControlScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlScrollView.swift; sourceTree = "<group>"; };
+		6A5A98731F86372D009445FA /* UnderlinedSegmentedControlElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedSegmentedControlElementView.swift; sourceTree = "<group>"; };
+		6A5A98741F86372D009445FA /* UnderlinedSegmentedControlElementView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnderlinedSegmentedControlElementView.xib; sourceTree = "<group>"; };
+		6A5A98751F86372D009445FA /* UnderlinedSegmentedControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnderlinedSegmentedControlView.xib; sourceTree = "<group>"; };
+		6A5A98761F86372D009445FA /* SegmentedControlScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentedControlScrollView.xib; sourceTree = "<group>"; };
+		6A5A98771F86372D009445FA /* UnderlinedSegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedSegmentedControlView.swift; sourceTree = "<group>"; };
+		6A5A987E1F863AB2009445FA /* DeepLynkType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLynkType.swift; sourceTree = "<group>"; };
+		6A5A987F1F863AB2009445FA /* DeepLinkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		6A5A98821F863AE9009445FA /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		6A75DAF81F863DAB0019C00A /* EmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyFile.swift; sourceTree = "<group>"; };
 		6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearNavigationViewController.swift; sourceTree = "<group>"; };
 		6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtons.swift; sourceTree = "<group>"; };
 		6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViews.swift; sourceTree = "<group>"; };
@@ -115,8 +138,10 @@
 		6A112DDC1F60279C00E95EB2 /* BackBone */ = {
 			isa = PBXGroup;
 			children = (
+				6A75DAF71F863DA20019C00A /* API */,
+				6A75DAF41F863C830019C00A /* Extensions */,
+				6A5A987B1F863829009445FA /* DeepLink */,
 				6ABF13501F6157E400D8B1F1 /* Custom Views */,
-				6A112DEF1F60282900E95EB2 /* API */,
 				6A112DDD1F60279C00E95EB2 /* AppDelegate.swift */,
 				6A112DE41F60279C00E95EB2 /* Assets.xcassets */,
 				6A112DE91F60279C00E95EB2 /* Info.plist */,
@@ -133,13 +158,6 @@
 			path = BackBone;
 			sourceTree = "<group>";
 		};
-		6A112DEF1F60282900E95EB2 /* API */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
 		6A112DF01F60282900E95EB2 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +165,7 @@
 				6A5A98651F863366009445FA /* LocalNotificationManager.swift */,
 				6A5A98661F863366009445FA /* StoryboardManager.swift */,
 				6A112DF11F60282900E95EB2 /* Constants.swift */,
+				6A5A98701F86368A009445FA /* NotificationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -155,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				6A5A986A1F86336E009445FA /* BaseModel.swift */,
+				6A5A98821F863AE9009445FA /* LinkModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,8 +230,34 @@
 		6A112DFB1F60282900E95EB2 /* UIViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6A5A986E1F8635A3009445FA /* MainViewController.swift */,
 			);
 			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		6A5A987B1F863829009445FA /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				6A5A987F1F863AB2009445FA /* DeepLinkManager.swift */,
+				6A5A987E1F863AB2009445FA /* DeepLynkType.swift */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
+		6A75DAF41F863C830019C00A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A75DAF71F863DA20019C00A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6A75DAF81F863DAB0019C00A /* EmptyFile.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		6ABF133B1F6155AD00D8B1F1 /* Subclasses */ = {
@@ -234,6 +280,12 @@
 		6ABF13501F6157E400D8B1F1 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				6A5A98721F86372D009445FA /* SegmentedControlScrollView.swift */,
+				6A5A98761F86372D009445FA /* SegmentedControlScrollView.xib */,
+				6A5A98731F86372D009445FA /* UnderlinedSegmentedControlElementView.swift */,
+				6A5A98741F86372D009445FA /* UnderlinedSegmentedControlElementView.xib */,
+				6A5A98771F86372D009445FA /* UnderlinedSegmentedControlView.swift */,
+				6A5A98751F86372D009445FA /* UnderlinedSegmentedControlView.xib */,
 				6ABF13511F6157E400D8B1F1 /* ButtonWithImageView.swift */,
 				6ABF13521F6157E400D8B1F1 /* ButtonWithImageView.xib */,
 			);
@@ -386,28 +438,38 @@
 				6A112E1C1F60613F00E95EB2 /* ThemeUIPageView.swift in Sources */,
 				6A5A986B1F86336E009445FA /* BaseModel.swift in Sources */,
 				6ABF134B1F6155AD00D8B1F1 /* UISegmentedControls.swift in Sources */,
+				6A75DAF61F863C8D0019C00A /* UIViewExtensions.swift in Sources */,
 				6A112E171F60613F00E95EB2 /* ThemeImageView.swift in Sources */,
 				6ABF134F1F6155AD00D8B1F1 /* UIViews.swift in Sources */,
 				6A112E081F6060F700E95EB2 /* Theme.swift in Sources */,
 				6A112E1E1F60613F00E95EB2 /* ThemeUIView.swift in Sources */,
 				6A112E161F60613F00E95EB2 /* ThemeFramedTextField.swift in Sources */,
+				6A5A98831F863AE9009445FA /* LinkModel.swift in Sources */,
 				6A5A98691F863366009445FA /* StoryboardManager.swift in Sources */,
 				6A112DDE1F60279C00E95EB2 /* AppDelegate.swift in Sources */,
 				6A112DFC1F60282900E95EB2 /* Constants.swift in Sources */,
+				6A5A98711F86368A009445FA /* NotificationManager.swift in Sources */,
 				6ABF13471F6155AD00D8B1F1 /* UIButtons.swift in Sources */,
+				6A5A986F1F8635A3009445FA /* MainViewController.swift in Sources */,
 				6A112E1A1F60613F00E95EB2 /* ThemeSegmentedControlScrollView.swift in Sources */,
 				6A112E181F60613F00E95EB2 /* ThemeLabel.swift in Sources */,
 				6ABF134C1F6155AD00D8B1F1 /* UITableViews.swift in Sources */,
+				6A5A98791F86372D009445FA /* UnderlinedSegmentedControlElementView.swift in Sources */,
+				6A5A98781F86372D009445FA /* SegmentedControlScrollView.swift in Sources */,
 				6A5A98671F863366009445FA /* ErrorManager.swift in Sources */,
+				6A5A98801F863AB2009445FA /* DeepLynkType.swift in Sources */,
 				6ABF134A1F6155AD00D8B1F1 /* UILabels.swift in Sources */,
 				6A5A98681F863366009445FA /* LocalNotificationManager.swift in Sources */,
 				6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */,
+				6A5A98811F863AB2009445FA /* DeepLinkManager.swift in Sources */,
 				6A112E191F60613F00E95EB2 /* ThemeSegmentedControl.swift in Sources */,
 				6A112E141F60613F00E95EB2 /* ThemeButton.swift in Sources */,
 				6ABF13531F6157E400D8B1F1 /* ButtonWithImageView.swift in Sources */,
 				6A112E1B1F60613F00E95EB2 /* ThemeTextField.swift in Sources */,
+				6A5A987A1F86372D009445FA /* UnderlinedSegmentedControlView.swift in Sources */,
 				6ABF134D1F6155AD00D8B1F1 /* UITextFields.swift in Sources */,
 				6ABF134E1F6155AD00D8B1F1 /* UITextViews.swift in Sources */,
+				6A75DAF91F863DAB0019C00A /* EmptyFile.swift in Sources */,
 				6ABF13491F6155AD00D8B1F1 /* UIImageViews.swift in Sources */,
 				6A112E1D1F60613F00E95EB2 /* ThemeUITextView.swift in Sources */,
 			);
