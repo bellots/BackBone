@@ -38,6 +38,11 @@
 		6A5A98831F863AE9009445FA /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A98821F863AE9009445FA /* LinkModel.swift */; };
 		6A75DAF61F863C8D0019C00A /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */; };
 		6A75DAF91F863DAB0019C00A /* EmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAF81F863DAB0019C00A /* EmptyFile.swift */; };
+		6A75DAFF1F863E0C0019C00A /* AuthHTTPNetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAFA1F863E0B0019C00A /* AuthHTTPNetworkTransport.swift */; };
+		6A75DB001F863E0C0019C00A /* event.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 6A75DAFB1F863E0B0019C00A /* event.graphql */; };
+		6A75DB011F863E0C0019C00A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAFC1F863E0B0019C00A /* Router.swift */; };
+		6A75DB021F863E0C0019C00A /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A75DAFD1F863E0C0019C00A /* schema.json */; };
+		6A75DB031F863E0C0019C00A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75DAFE1F863E0C0019C00A /* API.swift */; };
 		6ABF13461F6155AD00D8B1F1 /* ClearNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */; };
 		6ABF13471F6155AD00D8B1F1 /* UIButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */; };
 		6ABF13481F6155AD00D8B1F1 /* UICollectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */; };
@@ -90,6 +95,11 @@
 		6A5A98821F863AE9009445FA /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
 		6A75DAF51F863C8D0019C00A /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		6A75DAF81F863DAB0019C00A /* EmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyFile.swift; sourceTree = "<group>"; };
+		6A75DAFA1F863E0B0019C00A /* AuthHTTPNetworkTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthHTTPNetworkTransport.swift; sourceTree = "<group>"; };
+		6A75DAFB1F863E0B0019C00A /* event.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event.graphql; sourceTree = "<group>"; };
+		6A75DAFC1F863E0B0019C00A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6A75DAFD1F863E0C0019C00A /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		6A75DAFE1F863E0C0019C00A /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		6ABF133C1F6155AD00D8B1F1 /* ClearNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearNavigationViewController.swift; sourceTree = "<group>"; };
 		6ABF133D1F6155AD00D8B1F1 /* UIButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtons.swift; sourceTree = "<group>"; };
 		6ABF133E1F6155AD00D8B1F1 /* UICollectionViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViews.swift; sourceTree = "<group>"; };
@@ -255,6 +265,11 @@
 		6A75DAF71F863DA20019C00A /* API */ = {
 			isa = PBXGroup;
 			children = (
+				6A75DAFE1F863E0C0019C00A /* API.swift */,
+				6A75DAFA1F863E0B0019C00A /* AuthHTTPNetworkTransport.swift */,
+				6A75DAFB1F863E0B0019C00A /* event.graphql */,
+				6A75DAFC1F863E0B0019C00A /* Router.swift */,
+				6A75DAFD1F863E0C0019C00A /* schema.json */,
 				6A75DAF81F863DAB0019C00A /* EmptyFile.swift */,
 			);
 			path = API;
@@ -374,7 +389,9 @@
 			files = (
 				6A112DFE1F60282900E95EB2 /* Main.storyboard in Resources */,
 				6A112DE51F60279C00E95EB2 /* Assets.xcassets in Resources */,
+				6A75DB001F863E0C0019C00A /* event.graphql in Resources */,
 				6ABF13541F6157E400D8B1F1 /* ButtonWithImageView.xib in Resources */,
+				6A75DB021F863E0C0019C00A /* schema.json in Resources */,
 				6A112DFD1F60282900E95EB2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +473,9 @@
 				6ABF134C1F6155AD00D8B1F1 /* UITableViews.swift in Sources */,
 				6A5A98791F86372D009445FA /* UnderlinedSegmentedControlElementView.swift in Sources */,
 				6A5A98781F86372D009445FA /* SegmentedControlScrollView.swift in Sources */,
+				6A75DB031F863E0C0019C00A /* API.swift in Sources */,
 				6A5A98671F863366009445FA /* ErrorManager.swift in Sources */,
+				6A75DAFF1F863E0C0019C00A /* AuthHTTPNetworkTransport.swift in Sources */,
 				6A5A98801F863AB2009445FA /* DeepLynkType.swift in Sources */,
 				6ABF134A1F6155AD00D8B1F1 /* UILabels.swift in Sources */,
 				6A5A98681F863366009445FA /* LocalNotificationManager.swift in Sources */,
@@ -465,6 +484,7 @@
 				6A112E191F60613F00E95EB2 /* ThemeSegmentedControl.swift in Sources */,
 				6A112E141F60613F00E95EB2 /* ThemeButton.swift in Sources */,
 				6ABF13531F6157E400D8B1F1 /* ButtonWithImageView.swift in Sources */,
+				6A75DB011F863E0C0019C00A /* Router.swift in Sources */,
 				6A112E1B1F60613F00E95EB2 /* ThemeTextField.swift in Sources */,
 				6A5A987A1F86372D009445FA /* UnderlinedSegmentedControlView.swift in Sources */,
 				6ABF134D1F6155AD00D8B1F1 /* UITextFields.swift in Sources */,
