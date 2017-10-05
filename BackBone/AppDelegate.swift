@@ -12,14 +12,34 @@ import UsefulExtensions
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var topMainViewController:MainViewController?
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        UserDefaults.standard.setValue(false, forKey:"_UIConstraintBasedLayoutLogUnsatisfiable")
+
+        func resetWindow(){
+            guard let window = window else {
+                return
+            }
+            window.rootViewController = UIStoryboard.get(.main).instantiateViewController(withIdentifier: "mainTabViewController") as? UITabBarController
+            window.makeKeyAndVisible()
+            
+        }
+        setStyle()
+
+
         return true
     }
 
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let deviceTokenString = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
+        NotificationManager.instance.deviceToken = deviceTokenString
+    }
+    
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
@@ -41,6 +61,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func setStyle(){
+        UIApplication.shared.statusBarStyle = .lightContent
+        UINavigationBar.appearance().barTintColor = Constants.NavigationBar.BackgroundColor.primary
+        UINavigationBar.appearance().tintColor = Constants.NavigationBar.TintColor.contrastPrimary
+        UINavigationBar.appearance().isTranslucent = false
+        
+        
+        UITabBar.appearance().tintColor = Constants.TabBar.TintColor.selectedPrimary
+        UITabBar.appearance().unselectedItemTintColor = Constants.TabBar.TintColor.deselectedPrimary
+        
+        UITabBar.appearance()
+        
+        Theme.standard.setStyle()
+    }
+
 
 
 }

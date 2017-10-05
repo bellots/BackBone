@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UnderlinedSegmentedControlView" customModule="JoeBee" customModuleProvider="target">
+            <connections>
+                <outlet property="stackView" destination="36t-pI-bTH" id="NeP-XC-hhQ"/>
+                <outlet property="underlineView" destination="bCI-vW-iJP" id="jUe-ry-rnc"/>
+                <outlet property="underlineViewLeadingConstraint" destination="POu-Dn-NsN" id="BE8-O7-Bs9"/>
+                <outlet property="underlineViewWidthConstraint" destination="fA8-3v-4Hd" id="e6p-68-scE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="36t-pI-bTH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCI-vW-iJP">
+                    <rect key="frame" x="0.0" y="54" width="0.0" height="2"/>
+                    <color key="backgroundColor" red="0.92737799880000005" green="0.74203336239999995" blue="0.034804999830000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="egf-OL-iOU"/>
+                        <constraint firstAttribute="width" id="fA8-3v-4Hd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="36t-pI-bTH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FHJ-I0-fvg"/>
+                <constraint firstItem="bCI-vW-iJP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="POu-Dn-NsN"/>
+                <constraint firstAttribute="bottom" secondItem="36t-pI-bTH" secondAttribute="bottom" id="c2s-iP-yso"/>
+                <constraint firstItem="36t-pI-bTH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gsO-s5-97U"/>
+                <constraint firstAttribute="bottom" secondItem="bCI-vW-iJP" secondAttribute="bottom" id="kbD-KT-EMN"/>
+                <constraint firstAttribute="trailing" secondItem="36t-pI-bTH" secondAttribute="trailing" id="qna-x2-axN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="-251"/>
+        </view>
+    </objects>
+</document>

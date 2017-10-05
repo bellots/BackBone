@@ -32,3 +32,32 @@ extension UILabel{
     }
 
 }
+
+@IBDesignable class PrimaryLabel:DefaultLabel{}
+@IBDesignable class SecondaryLabel:DefaultLabel{}
+@IBDesignable class ContrastSecondaryLabel:DefaultLabel{}
+@IBDesignable class AlphaContrastSecondaryLabel:DefaultLabel{}
+
+@IBDesignable class SubtitleLabel:DefaultLabel{}
+@IBDesignable class PrimarySubtitleLabel:PrimaryLabel{}
+@IBDesignable class SecondarySubtitleLabel:SecondaryLabel{}
+@IBDesignable class ContrastSecondarySubtitleLabel:ContrastSecondaryLabel{}
+
+@IBDesignable class LargerLabel:DefaultLabel{}
+@IBDesignable class LargerPrimaryLabel:PrimaryLabel{}
+@IBDesignable class AlphaContrastSecondarySubtitleLabel:AlphaContrastSecondaryLabel{}
+
+@IBDesignable class BoldLabel:DefaultLabel{}
+@IBDesignable class BoldPrimaryLabel:PrimaryLabel{}
+@IBDesignable class BoldSecondaryLabel:SecondaryLabel{}
+@IBDesignable class BoldContrastSecondaryLabel:ContrastSecondaryLabel{}
+
+@IBDesignable class LargerBoldPrimaryLabel:LargerPrimaryLabel{}
+
+@IBDesignable class CustomizableLabel:DefaultLabel{
+    func setup(with hexString:String){
+        self.textColor = UIColor(hexString: hexString)
+    }
+}
+@IBDesignable class CustomizableBoldLabel:CustomizableLabel{}
+@IBDesignable class CustomizableSubtitleLabel:CustomizableLabel{}
