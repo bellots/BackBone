@@ -125,6 +125,7 @@ class SegmentedControlScrollView: UIView {
         scrollView.isPagingEnabled = true
         scrollView.showsVerticalScrollIndicator = false
         scrollView.showsHorizontalScrollIndicator = false
+        segmentedControlView.isHidden = (titles.count <= 1)
 
     }
     
@@ -138,7 +139,7 @@ class SegmentedControlScrollView: UIView {
         self.numElements = viewControllers.count
         segmentedControlView.delegate = self
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        segmentedControlView.isHidden = (titles.count == 1)
+        segmentedControlView.isHidden = (titles.count <= 1)
         scrollView.delegate = self
         self.layoutIfNeeded()
 
