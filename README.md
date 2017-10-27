@@ -13,14 +13,12 @@ I splitted it in **3 main branches**:
 These 3 branches have the same core, based on files grouped by semantic (I.E. **UIViewControllers/...**)
 
 
-#STYLE
+#Style with UIAppearance
 I created a solid logic based on **UIAppearance**, so I *subclass* every primitive UIKit element (UILabel, UIButton etc.) and then I apply a specific style for the sublcass.
 
-## **Example**
+### Example
 
 I want to have a label which has **red textColor** and a **blue backgroundColor**.
-
-### How to
 
 1) Create a Swift file (if doesn't already exist) in **Subclasses** directory called *UILabels*.
 
@@ -68,3 +66,45 @@ enum Theme{
 ```
 
 10) That's it! This `setStyle()` is called in `AppDelegate->DidFinishLaunchingWithOptions` function.
+
+
+## Add specific UIAppearance properties
+
+You can also add particular properties, for instance in a custom UIView which you want to customize in *UIAppearance*. Or something that you normally can't customize through UIAppearance.
+
+###Example
+
+Assuming that you want to set UILabel's `height` in UIAppearance. Inside your subclass declaration, add the following code:
+
+```
+    var heightConstraint:NSLayoutConstraint?
+
+    dynamic public var frameHeight:CGFloat{
+        get{
+            if let heightConstraint = heightConstraint{
+                return heightConstraint.constant
+            }
+            else{
+                return 50
+            }
+        }
+        set{
+            if let heightConstraint = heightConstraint{
+                heightConstraint.constant = newValue
+                layoutIfNeeded()
+
+            }
+            else{
+                heightConstraint = NSLayoutConstraint(item: self, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1, constant: newValue)
+                heightConstraint?.priority = 999
+                heightConstraint?.isActive = true
+                layoutIfNeeded()
+
+            }
+        }
+    }
+    
+```
+
+
+So in your `Themes/ThemeLabel`, you can: `YourLabel.appearance().frameHeight = 50`
